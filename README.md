@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import FLOAT64_MIN_BASE10_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-min-base10-exponent@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-min-base10-exponent/tags). For example,
+
+```javascript
 import FLOAT64_MIN_BASE10_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-min-base10-exponent@v0.2.3-deno/mod.js';
 ```
 
@@ -73,7 +78,7 @@ var bool = ( FLOAT64_MIN_BASE10_EXPONENT === -308 );
 <!-- eslint-disable id-length -->
 
 ```javascript
-import FLOAT64_MIN_BASE10_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-min-base10-exponent@v0.2.3-deno/mod.js';
+import FLOAT64_MIN_BASE10_EXPONENT from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-min-base10-exponent@deno/mod.js';
 
 console.log( FLOAT64_MIN_BASE10_EXPONENT );
 // => -308
